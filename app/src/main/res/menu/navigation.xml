@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Nội dung ">
+        <menu>
+            <item android:title="Tin 24h"
+                android:id="@+id/tin24h"
+                android:icon="@drawable/ic_24h"/>
+            <item android:title="Tin VnExpress"
+                android:id="@+id/tinVnpress"
+                android:icon="@drawable/ic_vnpress"/>
+            <item android:title="Tin Thanh niên"
+                android:id="@+id/tinThanhNien"
+                android:icon="@drawable/ic_thanhnien"/>
+
+            <item android:title="Tin Báo"
+                android:id="@+id/tinBaoTinTuc"
+                android:icon="@drawable/ic_baotintuc"/>
+            <item android:title="Tin Xã Luận"
+                android:id="@+id/tinXaLuan"
+                android:icon="@drawable/ic_xaluan"/>
+            <item android:title="Tin ICT News"
+                android:id="@+id/tinIctnews"
+                android:icon="@drawable/ic_itcnew"/>
+
+            <item android:title="Tin Eva"
+                android:id="@+id/tinEva"
+                android:icon="@drawable/ic_eva"/>
+            <item android:title="Tin Tức VN"
+                android:id="@+id/tintucvn"
+                android:icon="@drawable/ic_tinvn"/>
+            <!--<item android:title="Tin Soha"-->
+            <!--android:id="@+id/tinSoha"-->
+            <!--android:icon="@drawable/ic_soha"/>-->
+
+            <!--<item android:title="Tin Người Lao Động"-->
+            <!--android:id="@+id/tinNguoiLD"-->
+            <!--android:icon="@drawable/ic_nguoilaodong"/>-->
+            <item android:title="Tin ViệtNamNet"
+                android:id="@+id/tinVietnamnet"
+                android:icon="@drawable/ic_vietnamnet"/>
+            <item android:title="Tin Tức Online"
+                android:id="@+id/tinTucOnline"
+                android:icon="@drawable/ic_tintuc_onl"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="Thông Tin Sản Phẩm">
+        <menu>
+            <item android:title="Email Góp ý"
+                android:id="@+id/email_menu"
+                android:icon="@drawable/icons_gmail_32"/>
+            <item android:title="Rate 5 sao"
+                android:id="@+id/rate_menu"
+                android:icon="@drawable/ic_rate_5"/>
+            <item android:title="Share"
+                android:id="@+id/share_menu"
+                android:icon="@drawable/ic_share"/>
+            <item android:title="Phiên bản hiện tại v1.2"
+                android:id="@+id/info_meu"
+                android:icon="@drawable/ic_info_menu"/>
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.media.tf.ung_dung_doc_bao.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        app:fontName="myriadpro.ttf"
+        android:layout_marginTop="20dp"
+        android:text="Chào mừng bạn đến với"/>
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:id="@+id/textTitle"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:text="TIN MỚI"/>
+    <com.media.tf.ung_dung_doc_bao.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|left|fill_horizontal"
+        android:textSize="15sp"
+        app:fontName="myriadpro.ttf"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_redu_3"
+        android:text="Cảm ơn bạn đã sử dụng Ứng dụng\nHi vọng nhận được sự đánh giá từ bạn. Hãy ủng hộ chúng tôi"/>
+
+    <com.media.tf.ung_dung_doc_bao.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|left|fill_horizontal"        android:layout_gravity="left"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_redu_2"
+        app:fontName="myriadpro.ttf"
+        android:text="Nơi tổng hợp những tin tức mới nhất từ những trang báo điện tử như 24h, VnEpxress, Thanh niên"/>
+    <com.media.tf.ung_dung_doc_bao.FontCustom.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        app:fontName="myriadpro.ttf"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_reduec"
+        android:textSize="15sp"
+        android:text="Nhanh nhất ngắn gọn đầy đủ cho người dùng một cách tiện dụng nhất "/>
+
+    <com.romainpiel.shimmer.ShimmerButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_Docngay"
+        android:background="@drawable/cumstom_background_gradient"
+        android:padding="10dp"
+        android:textColor="@color/green"
+        android:textAllCaps="true"
+        android:text="Đọc ngay"/>
+
+
+</LinearLayout>

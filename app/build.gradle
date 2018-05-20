@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.media.tf.ung_dung_doc_bao"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/fonts'] } }
+    allprojects {
+        repositories {
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // tạo animation cửa sổ menu xổ xuống từ một góc khi chạm nút menu
+    // tạo animation progessbar kiểu google loading
+    // tạo hiệu ứng giữa 2 fragment
+    //    tạo animation nút menu, back
+    // tạo hiệu ứng sáng mờ textview
+    // fresh layout container
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'org.jsoup:jsoup:1.10.3'
+    compile 'com.github.Yalantis:GuillotineMenu-Android:1.2'
+    compile 'com.jpardogo.googleprogressbar:library:1.2.0'
+    compile 'com.desarrollodroide:fragmenttransactionextended:1'
+    compile 'com.balysv.materialmenu:material-menu:2.0.0'
+    compile 'com.romainpiel.shimmer:library:1.4.0@aar'
+    compile 'com.baoyz.pullrefreshlayout:library:1.2.0'
+    compile 'com.google.firebase:firebase-ads:10.0.1'
+    testCompile 'junit:junit:4.12'
+}
+
+
+apply plugin: 'com.google.gms.google-services'

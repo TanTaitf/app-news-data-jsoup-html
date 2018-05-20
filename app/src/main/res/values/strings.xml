@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tin Mới</string>
+    <string name="firstcolor_pref_key">Red</string>
+    <string name="secondcolor_pref_key">Blue</string>
+    <string name="thirdcolor_pref_key">Yellow</string>
+    <string name="fourthcolor_pref_key">Green</string>
+    <string name="edit">Edit</string>
+</resources>
