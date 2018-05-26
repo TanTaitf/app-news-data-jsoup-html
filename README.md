@@ -6,6 +6,7 @@
 [![Review](https://img.youtube.com/vi/BQMOtG56LiI/0.jpg)](http://youtu.be/BQMOtG56LiI)
 
 # Screen shot Layout
+
 <img src="https://github.com/TanTaitf/app-news-data-jsoup-html/blob/master/screenshot/2017-10-01_9-41-22.png" alt="drawing" width="200"/> <img src="https://github.com/TanTaitf/app-news-data-jsoup-html/blob/master/screenshot/2017-09-30_15-20-49.png" alt="drawing" width="200"/> <img src="https://github.com/TanTaitf/app-news-data-jsoup-html/blob/master/screenshot/2017-09-30_15-21-49.png" alt="drawing" width="200"/>
 
 <img src="https://github.com/TanTaitf/app-news-data-jsoup-html/blob/master/screenshot/2017-10-01_9-42-45.png" alt="drawing" width="200"/> <img src="https://github.com/TanTaitf/app-news-data-jsoup-html/blob/master/screenshot/2017-09-30_15-23-15.png" alt="drawing" width="200"/> <img src="https://github.com/TanTaitf/app-news-data-jsoup-html/blob/master/screenshot/2017-09-30_15-22-50.png" alt="drawing" width="200"/>
